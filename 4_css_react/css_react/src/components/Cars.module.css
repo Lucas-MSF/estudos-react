@@ -1,0 +1,31 @@
+.carTableContainer {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carTable {
+    width: 60%;
+    border-collapse: collapse;
+  }
+  
+  .carTable th,
+  .carTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .carTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .carTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .carTable tr:hover {
+    background-color: #ddd;
+  }
+  
